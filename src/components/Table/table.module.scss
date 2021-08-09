@@ -1,0 +1,64 @@
+.customTable {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 700px;
+  &_wrapper {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+}
+.name {
+  border: 1px solid #ddd;
+  text-align: center;
+  width: 700px;
+}
+.customTable td,
+.customTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.customTable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.customTable tr:hover {
+  background-color: #ddd;
+}
+
+.customTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+
+.basketBtn {
+  width: 100px;
+  height: 40px;
+  outline: none;
+  cursor: pointer;
+  border: tomato;
+  border-radius: 8px;
+  color: aqua;
+  font-size: 16px;
+  background-color: forestgreen;
+  border: 1px solid #000;
+}
+
+.basket {
+  position: absolute;
+  background-color: #04aa6d;
+  padding: 5px;
+  color: white;
+  font-size: large;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  &_inView {
+    width: 100px;
+    height: auto;
+    position: sticky;
+    bottom: 3%;
+  }
+}
